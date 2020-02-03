@@ -1,0 +1,24 @@
+{
+  "name": "bin_font",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "svg2ttf": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node node_modules/svg2ttf/svg2ttf.js pub/R.svg pub/R.ttf && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mi8882255/binaryFont.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mi8882255/binaryFont/issues"
+  },
+  "homepage": "https://github.com/mi8882255/binaryFont#readme"
+}
